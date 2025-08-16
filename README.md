@@ -45,26 +45,17 @@ It enables users to ask context-aware questions and get accurate answers by comb
    cd RAG-Q-A-System
 Create & activate a virtual environment (optional but recommended)
 
-bash
-Copy
-Edit
 python -m venv venv
 source venv/bin/activate   # On Mac/Linux
 venv\Scripts\activate      # On Windows
+
 Install dependencies
 
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 Run the Streamlit app
 
-bash
-Copy
-Edit
 streamlit run app.py
-Open the app in your browser at:
-👉 http://localhost:8501
 
 🎯 How It Works
 User enters a question in the Streamlit app.
@@ -75,19 +66,8 @@ Hugging Face Transformer model generates a context-based answer.
 
 Answer is displayed instantly in the UI.
 
-📊 Example Output
-vbnet
-Copy
-Edit
-Q: What is Retrieval-Augmented Generation?  
-A: Retrieval-Augmented Generation (RAG) is an approach that combines document retrieval with language generation models to provide context-aware, accurate answers.
-📌 Future Improvements
-Add support for PDF/Doc ingestion.
-
-Integrate larger language models (LLMs) for better responses.
-
-Deploy on cloud platforms (AWS/Azure/Heroku) for public access.
 
 👤 Author
 Shaik Anwar
+
 
