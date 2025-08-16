@@ -29,14 +29,11 @@ It enables users to ask context-aware questions and get accurate answers by comb
 ---
 
 ## 📂 Project Structure
+
 ├── app.py # Main Streamlit application
 ├── requirements.txt # Python dependencies
 ├── data/ # Folder for documents/corpus (if applicable)
 └── README.md # Project documentation
-
-yaml
-Copy
-Edit
 
 ---
 
@@ -93,3 +90,4 @@ Deploy on cloud platforms (AWS/Azure/Heroku) for public access.
 
 👤 Author
 Shaik Anwar
+
